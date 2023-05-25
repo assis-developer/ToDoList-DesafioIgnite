@@ -3,10 +3,7 @@
   margin: 2rem auto;
   padding: 0 1rem;
 
-  display: grid;
-  grid-template-columns: 256px 1fr;
-  gap: 2rem;
-  align-items: flex-start;
+  display: flex;
 }
 
 @media (max-width: 768px){
@@ -19,4 +16,23 @@
   .wrapper{
       grid-template-columns: 1fr;
   }
+}
+
+.taskForm{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.taskForm input{
+  width: 100%;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  resize: none;
+  height: 3.375rem;
+  padding: 1rem;
+  border-radius: 8px;
+  color: var(--gray-300);
+  line-height: 1.4;
+  margin-top: 1rem;
 }

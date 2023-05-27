@@ -1,10 +1,12 @@
-import './App.css'
+import { Header } from './components/Header'
+import './global.css' 
 
 export function App() {
   return (
-    <>
-    <p>Teste</p>
-    </>
+    <div>
+      <Header />
+
+    </div>
   )
 }
 
